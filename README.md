@@ -46,19 +46,19 @@ an invalid index number returns `undefined`.
 const list = [];
 
 // Create an array literal with values
-const anotherList = ['Nelly', 100, false, 2];
+const anotherList = ['Ahmed', 100, false, 2];
 
 // Read value from an Array, use index
-anotherList[0]; // 'Nelly'
+anotherList[0]; // 'Ahmed'
 anotherList[2]; // false
 
 // Update value in an Array, use index
 anotherList[2] = true;
-anotherList; // ['Nelly', 100, true, 2]
+anotherList; // ['Ahmed', 100, true, 2]
 
 // Add value to an Array, use index
 anotherList[5] = 'Add Me';
-anotherList; // ['Nelly', 100, true, 2, undefined, 'Add Me']
+anotherList; // ['Ahmed', 100, true, 2, undefined, 'Add Me']
 ```
 
 ## Array Methods
@@ -81,7 +81,7 @@ anotherList; // ['Nelly', 100, true, 2, undefined, 'Add Me']
 #### Code Along: Iterate through an Array
 
 ```js
-const developers = ['Ahmad', 'Mike', 'Sami']
+const developers = ['Hazim', 'Reem', 'Mansour']
 
 // Individually print message for each item in array
 console.log('Hello ' + developers[0])
