@@ -87,11 +87,6 @@ const developers = ['Hazim', 'Reem', 'Mansour']
 console.log('Hello ' + developers[0])
 console.log('Hello ' + developers[1])
 console.log('Hello ' + developers[2])
-
-// Loop through array using i as the index
-for (let i = 0; i < developers.length; i++) {
-  console.log('Hello ' + developers[i])
-}
 ```
 
 ## Array Practice
@@ -103,7 +98,7 @@ Create a  file named `practice.js` to save your solutions.
 ```js
 const arr = [2, 3, 4];
 
-// your code here
+// Your code 
 
 arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 ```
@@ -116,41 +111,15 @@ arr.push(6); // returns ???
 ```
 
 3. Write a JavaScript console.log to get the last element of an array:
+Make this dynamic!
 ```js
 const arr1 = [10,  9, 6, 5]
-const arr2 = [9, 10, 20, 30]
 
-    // your code here
+    // Your code 
 
-  //result:
-     //arr1 //=> 5
-     //arr2 //==> 30
 ```
 
-
-4. Change all odd numbers to be those numbers multiplied by two:
-```js
-const numbers = [4, 9, 7, 2, 1, 8];
-
-  // your code here
-
-numbers; // => [8, 18, 14, 4, 2, 16]
-```
-
-5. Change all **odd** numbers to be those numbers multiplied by two:
-```js
-const numbers = [4, 9, 7, 2, 1, 8];
-
-  // your code here
-
-numbers; // => [4, 18, 14, 2, 2, 8]
-```
-
-6.  Create an array to hold your favorite colors.  For each choice, log to the screen a string like: `My #1 choice is blue.`
-
-1.  Create an array of ages.  Loop through and log only the ages that are over 21.
-
-1.  Starting with an empty array called `rainbowColors`:
+4.  Starting with an empty array called `rainbowColors`:
 
     * Add "orange" to the end of the array
     * Add "red" to the start of the array
@@ -164,18 +133,15 @@ numbers; // => [4, 18, 14, 2, 2, 8]
 
 1. Find out the difference between `.slice` and `.splice`
     * Create an array called `twoColors` using one method - don't change the `rainbowColors` array! Essentially pull two colors out of the array (say, between the index of 1 and 3)
-    * Starting with this array `var nums = [0, 1, 2, 2, 2, 3, 3, 4, 5];`, remove the duplicates *destructively* using _slice_ or _splice_ (whichever one is appropriate)
+    * Starting with this array `const nums = [0, 1, 2, 2, 2, 3, 3, 4, 5];`, remove the duplicates *destructively* using _slice_ or _splice_ (whichever one is appropriate)
 
 1. Work with arrays of arrays
-    * Starting with this array `var arrOfArrs = [["inner array first item", "inner array second item"], ["first", "second", "third"]];`
+    * Starting with this array `const arrOfArrs = [["inner array first item", "inner array second item"], ["first", "second", "third"]];`
     * Access "inner array first item" and print it out"
     * Print "third" by using a dynamic index
   
   
-1. Create an array to hold your top five choices of something (music, books, movies, whatever).
 
-    - For each choice, log to the screen a string like: "My #1 choice is blue."
-    - **Bonus:** Change it to log "My 1st choice, "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is.
 
 ## Array Methods Resources
 
