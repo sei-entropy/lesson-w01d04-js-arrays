@@ -115,7 +115,21 @@ const arr = [5, 7, 9];
 arr.push(6); // returns ???
 ```
 
-3. Change all odd numbers to be those numbers multiplied by two:
+3. Write a JavaScript console.log to get the last element of an array:
+```js
+const arr1 = [10,  9, 6, 5]
+const arr2 = [9, 10, 20, 30]
+
+    // your code here
+
+  //result:
+     //arr1 //=> 5
+     //arr2 //==> 30
+```
+
+Expected Output :
+
+4. Change all odd numbers to be those numbers multiplied by two:
 ```js
 const numbers = [4, 9, 7, 2, 1, 8];
 
@@ -124,7 +138,7 @@ const numbers = [4, 9, 7, 2, 1, 8];
 numbers; // => [8, 18, 14, 4, 2, 16]
 ```
 
-4. Change all **odd** numbers to be those numbers multiplied by two:
+5. Change all **odd** numbers to be those numbers multiplied by two:
 ```js
 const numbers = [4, 9, 7, 2, 1, 8];
 
@@ -133,7 +147,7 @@ const numbers = [4, 9, 7, 2, 1, 8];
 numbers; // => [4, 18, 14, 2, 2, 8]
 ```
 
-5.  Create an array to hold your favorite colors.  For each choice, log to the screen a string like: `My #1 choice is blue.`
+6.  Create an array to hold your favorite colors.  For each choice, log to the screen a string like: `My #1 choice is blue.`
 
 1.  Create an array of ages.  Loop through and log only the ages that are over 21.
 
