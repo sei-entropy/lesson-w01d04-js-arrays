@@ -127,7 +127,6 @@ const arr2 = [9, 10, 20, 30]
      //arr2 //==> 30
 ```
 
-Expected Output :
 
 4. Change all odd numbers to be those numbers multiplied by two:
 ```js
@@ -178,6 +177,10 @@ numbers; // => [4, 18, 14, 2, 2, 8]
     - For each choice, log to the screen a string like: "My #1 choice is blue."
     - **Bonus:** Change it to log "My 1st choice, "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is.
 
+## Array Methods Resources
+
+- https://www.w3schools.com/js/js_array_methods.asp
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 ## Array Resources
 
 - https://javascript.info/array
