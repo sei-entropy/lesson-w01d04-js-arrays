@@ -67,9 +67,9 @@ anotherList; // ['Ahmed', 100, true, 2, undefined, 'Add Me']
 
 ![images/arrays10](images/arrays10.png)
 
-![images/arrays11](images/arrays11.png)
-
 ![images/arrays12](images/arrays12.png)
+
+![images/arrays11](images/arrays11.png)
 
 ![images/arrays13](images/arrays13.png)
 
