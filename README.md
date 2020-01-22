@@ -100,7 +100,9 @@ Create a  file named `practice.js` to save your solutions.
 ```js
 const arr = [2, 3, 4];
 
-// Your code 
+arr.push(5,6,7);
+arr.unshift(1);
+arr.unshift(0);
 
 arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 ```
@@ -109,7 +111,7 @@ arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 
 ```js
 const arr = [5, 7, 9];
-arr.push(6); // returns ???
+arr.push(6); // returns undefien 
 ```
 
 3. Write a JavaScript console.log to get the last element of an array:
@@ -117,7 +119,7 @@ Make this dynamic!
 ```js
 const arr1 = [10,  9, 6, 5]
 
-    // Your code 
+    // console.log(arr1[arr1.length - 1]);
 
 ```
 
@@ -132,16 +134,40 @@ const arr1 = [10,  9, 6, 5]
     * Print the second item
     * Print the last item (make this flexible/dynamic!)
     * Print the index of the string "blue"
+    \\ My answer...
+    var rainbowColors = [];
+    rainbowColors.push('orange');
+    rainbowColors.unshift('red');
+    rainbowColors.push('blue');
+    rainbowColors.push('green','blue','indigo','violet');
+    console.log(rainbowColors.length - 1);
+    console.log(rainbowColors[1]);
+    console.log(rainbowColors[rainbowColors.length - 1]);
+    console.log(rainbowColors[4]);
+......
+
+
+    
+
+
 
 1. Find out the difference between `.slice` and `.splice`
     * Create an array called `twoColors` using one method - don't change the `rainbowColors` array! Essentially pull two colors out of the array (say, between the index of 1 and 3)
+    //...my answer...
+    .slice is e.g  arr =[0,1,2,3,4,5] slice(2,3) => [2,3]
+    .splice(2,3)  print all and remove (2,3)
     * Starting with this array `const nums = [0, 1, 2, 2, 2, 3, 3, 4, 5];`, remove the duplicates *destructively* using _slice_ or _splice_ (whichever one is appropriate)
+    Answers
+    #let remove = nums.splice(3,3);
 
+
+-----------
 1. Work with arrays of arrays
     * Starting with this array `const arrOfArrs = [["inner array first item", "inner array second item"], ["first", "second", "third"]];`
     * Access "inner array first item" and print it out"
     * Print "third" by using a dynamic index
-  
+    console.log(arrOfArrs[0]);
+    console.log(arrOfArrs[arrOfArrs.length -1]);
   
 
 
