@@ -100,7 +100,11 @@ Create a  file named `practice.js` to save your solutions.
 ```js
 const arr = [2, 3, 4];
 
-// Your code 
+arr.push(5);
+arr.push(6);
+arr.push(7);
+arr.unshift(1);
+arr.unshift(0);
 
 arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 ```
@@ -111,13 +115,14 @@ arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 const arr = [5, 7, 9];
 arr.push(6); // returns ???
 ```
-
+4 
+will return the lingth of the array 
 3. Write a JavaScript console.log to get the last element of an array:
 Make this dynamic!
 ```js
 const arr1 = [10,  9, 6, 5]
 
-    // Your code 
+console.log(arr1.length-1 )
 
 ```
 
@@ -132,16 +137,36 @@ const arr1 = [10,  9, 6, 5]
     * Print the second item
     * Print the last item (make this flexible/dynamic!)
     * Print the index of the string "blue"
+const rainbowColors = []
+rainbowColors .push("orange");
+rainbowColors .unshift ("red");
+rainbowColors .push("yellow" );
+rainbowColors .push( "green", "blue", "indigo", "violet" );
+rainbowColors.length
+rainbowColors[1];
+ rainbowColors [rainbowColors .length-1]
+ rainbowColors .length-1
+ rainbowColors.indexOf("blue");
 
-1. Find out the difference between `.slice` and `.splice`
+ 5. Find out the difference between `.slice` and `.splice`
     * Create an array called `twoColors` using one method - don't change the `rainbowColors` array! Essentially pull two colors out of the array (say, between the index of 1 and 3)
     * Starting with this array `const nums = [0, 1, 2, 2, 2, 3, 3, 4, 5];`, remove the duplicates *destructively* using _slice_ or _splice_ (whichever one is appropriate)
+ const twoColors = rainbowColors.slice(1, 3);
+ console.log(twoColors);
 
-1. Work with arrays of arrays
+ const nums = [0, 1, 2, 2, 2, 3, 3, 4, 5];
+ nums.splice(2,3);
+
+
+6. Work with arrays of arrays
     * Starting with this array `const arrOfArrs = [["inner array first item", "inner array second item"], ["first", "second", "third"]];`
     * Access "inner array first item" and print it out"
     * Print "third" by using a dynamic index
-  
+  arrOfArrs [0][0];
+for (let i=0 ; i< arrOfArrs.length ; i++)
+{
+ console.log(arrOfArrs[1][2]); 
+} 
   
 
 
