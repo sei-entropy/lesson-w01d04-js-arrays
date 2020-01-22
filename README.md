@@ -137,6 +137,8 @@ const arr1 = [10,  9, 6, 5]
     * Create an array called `twoColors` using one method - don't change the `rainbowColors` array! Essentially pull two colors out of the array (say, between the index of 1 and 3)
     * Starting with this array `const nums = [0, 1, 2, 2, 2, 3, 3, 4, 5];`, remove the duplicates *destructively* using _slice_ or _splice_ (whichever one is appropriate)
 
+    I will use splice to update the original Array "nums".
+
 1. Work with arrays of arrays
     * Starting with this array `const arrOfArrs = [["inner array first item", "inner array second item"], ["first", "second", "third"]];`
     * Access "inner array first item" and print it out"
