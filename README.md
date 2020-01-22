@@ -102,6 +102,9 @@ const arr = [2, 3, 4];
 
 // Your code 
 
+arr.push(5,6,7)
+arr.unshift(0,1)
+
 arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 ```
 
@@ -110,6 +113,11 @@ arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 ```js
 const arr = [5, 7, 9];
 arr.push(6); // returns ???
+
+6
+
+it will be 
+arr = [5, 7, 9,6];
 ```
 
 3. Write a JavaScript console.log to get the last element of an array:
@@ -118,7 +126,16 @@ Make this dynamic!
 const arr1 = [10,  9, 6, 5]
 
     // Your code 
+const nums = [10, 9, 6, 5];
+getMeTheLastElemInAnArray(nums);
+//=> 5
+const strs = ["t", "m", "u", "z", 6, "i"];
 
+const getMeTheLastElemInAnArray = function() {
+  const nums = [10, 9, 6, 5];
+
+  const strs = ["t", "m", "u", "z", 6, "i"];
+};
 ```
 
 4.  Starting with an empty array called `rainbowColors`:
@@ -132,6 +149,12 @@ const arr1 = [10,  9, 6, 5]
     * Print the second item
     * Print the last item (make this flexible/dynamic!)
     * Print the index of the string "blue"
+
+    ```js
+ 
+    ```
+
+    
 
 1. Find out the difference between `.slice` and `.splice`
     * Create an array called `twoColors` using one method - don't change the `rainbowColors` array! Essentially pull two colors out of the array (say, between the index of 1 and 3)
