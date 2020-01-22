@@ -101,7 +101,11 @@ Create a  file named `practice.js` to save your solutions.
 const arr = [2, 3, 4];
 
 // Your code 
-
+arr.unshift(1);
+arr.unshift(0);
+arr.push(5);
+arr.push(6);
+arr.push(7);
 arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 ```
 
@@ -109,7 +113,7 @@ arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
 
 ```js
 const arr = [5, 7, 9];
-arr.push(6); // returns ???
+arr.push(6); // returns 4, which is the length of the array after pushing the new element
 ```
 
 3. Write a JavaScript console.log to get the last element of an array:
@@ -118,6 +122,7 @@ Make this dynamic!
 const arr1 = [10,  9, 6, 5]
 
     // Your code 
+    console.log(arr1[arr1.length-1]);
 
 ```
 
@@ -132,6 +137,7 @@ const arr1 = [10,  9, 6, 5]
     * Print the second item
     * Print the last item (make this flexible/dynamic!)
     * Print the index of the string "blue"
+    
 
 1. Find out the difference between `.slice` and `.splice`
     * Create an array called `twoColors` using one method - don't change the `rainbowColors` array! Essentially pull two colors out of the array (say, between the index of 1 and 3)
